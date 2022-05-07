@@ -1,0 +1,144 @@
+body {
+    height: 900px;
+    background-color: bisque;
+    font-family: GOOD PEOPLE;}
+
+footer{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    width: 99%;
+    height: 20%;
+    background-color: rgb(235, 184, 122);
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(1, 10, 10);
+    text-shadow: 2px 2px 2px rgb(247, 246, 246);
+}
+#hanoi {
+    margin-left: 350px;
+    width: 52.4%;
+    height: 340px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 249, 236);
+}
+#stopDisco {
+    display: flex;
+    width: 310px;
+    height: 40px;
+    border: 2px solid rgb(255, 249, 236);
+    border-radius: 5px;
+    background: rgb(255, 249, 236);
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+.palo {margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-left: 3px solid rgb(201, 80, 0);
+    border-radius: 8px;
+    width: 14px;
+    height: 225px;
+    background-color: rgb(235, 161, 65);
+    cursor: pointer;
+}
+.palo:hover {
+    background: rgb(250, 208, 161);
+}
+.disco1 {
+    width: 154px;
+    height: 24px;
+    background-color: rgb(125, 245, 94);
+    border-left: 4px solid rgb(6, 143, 63);
+    border-block-end: 3px solid rgb(6, 143, 63);
+    border-radius: 10px;
+}
+.disco2 {
+    border-radius: 10px;
+    width: 132px;
+    height: 24px; 
+    background-color: rgb(231, 84, 140); 
+    border-left: 4px solid rgb(148, 2, 82);
+    border-block-end: 3px solid rgb(148, 2, 82);
+}
+.disco3 {
+    width: 108px;
+    height: 24px;
+    border-radius: 10px;
+    background-color: rgb(231, 221, 84); 
+    border-left: 4px solid rgb(143, 129, 6);
+    border-block-end: 3px solid rgb(143, 129, 6);
+}
+.disco4 { 
+    width: 82px;
+    height: 24px;
+    background-color: rgb(128, 84, 231); 
+    border-left: 4px solid rgb(78,22,110);
+    border-block-end: 3px solid rgb(78, 22, 110);
+    border-radius: 10px; 
+}
+.disco5{ 
+    width: 60px;
+    height: 24px;
+    background-color: rgb(24, 207, 192); 
+    border-left: 4px solid rgb(22, 110, 103);
+    border-block-end: 3px solid rgb(7, 13, 48);
+    border-radius: 10px;
+}
+
+#btn:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+    background: rgb(136, 135, 135);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+    background: rgb(3, 3, 3);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    width: 400px;
+    height: 50px;
+    background: bisque;
+    color: bisque;
+    text-shadow: 2px 2px 2px bisque;
+}
